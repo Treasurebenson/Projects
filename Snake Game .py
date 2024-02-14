@@ -18,7 +18,7 @@ head.direction = "Stop"
  
 food = turtle.Turtle()
 colors = random.choice(['blue', 'orange', 'black'])
-shapes = random.choice(['octagon', 'hexagon', 'square'])
+shapes = random.choice(['octagon', 'circle', 'square'])
 food.speed(0)
 food.shape(shapes)
 food.color(colors)
@@ -72,7 +72,7 @@ while True:
         head.goto(0, 0)
         head.direction = "Stop"
         colors = random.choice(['blue', 'orange', 'black'])
-        shapes = random.choice(['octagon', 'hexagon', 'square'])
+        shapes = random.choice(['octagon', 'circle', 'square'])
         for segment in segments:
             segment.goto(1000, 1000)
         segments.clear()
@@ -116,7 +116,7 @@ while True:
             head.goto(0, 0)
             head.direction = "stop"
             colors = random.choice(['blue', 'orange', 'black'])
-            shapes = random.choice(['octagon', 'hexagon' 'square'])
+            shapes = random.choice(['octagon', 'circle' 'square'])
             for segment in segments:
                 segment.goto(1000, 1000)
             segments.clear()
